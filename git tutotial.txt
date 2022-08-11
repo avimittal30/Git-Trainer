@@ -82,7 +82,11 @@ However if you dont want this change to happen then:
 git checkout master:
 this will restore the changes done to the file in feature1 (try it)
 
+<<<<<<< HEAD
 If you wanna merge your changes in feature1 to master branch, then
+=======
+If you wanna merge your changes in feature1 to master branch, then, 
+>>>>>>> feature1
 git merge feature1
 
 
