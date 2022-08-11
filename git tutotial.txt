@@ -57,8 +57,25 @@ git status -s
 git ignore: for file that you dont want to track
 create a file .gitignore : touch .gitignore
 add the files you want to ignore in this file
-
 git will ignore this file... will not show up even in got status
+
+if you want to ignore file only in the root directory, then, write this in .gitignore:
+/mylogs.log
+
+and if you want to ignore all the log files present anywhere then
+*.log and similar with other extentions
+
+if you want to ignore any folder... then <folder name>/
+
+To create a new branch:
+git branch <branch_name>
+
+to check all the branches:
+git branch
+
+
+
+
 
 
 
