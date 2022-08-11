@@ -54,3 +54,11 @@ Version of git status:
 git status -s
 
 
+git ignore: for file that you dont want to track
+create a file .gitignore : touch .gitignore
+add the files you want to ignore in this file
+
+git will ignore this file... will not show up even in got status
+
+
+
