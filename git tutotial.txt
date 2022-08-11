@@ -49,3 +49,8 @@ Remove it only from staging area: git rm --chached waste.py
 To remove the file completely:
 git rm -f waste.py
 
+
+Version of git status:
+git status -s
+
+
