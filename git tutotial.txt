@@ -1,0 +1,51 @@
+git add <file name>
+To get the file to be tracked by git
+
+git add -A 
+For all the files
+
+git status 
+to see whats happening
+
+git commit  
+to commit the file... once you are sure this is what you want to save
+
+to commit multiple files:
+git commit -m "<comment>"
+
+Now.. if someone modifies your file and you want to restore the file to last commit
+git checkout <file name>
+
+Same command for multiple files
+git checkout -f
+
+
+To track all the changes done to the repository:
+git log
+
+To see all the commits done to the file and the changes done in each commit
+git -log -p -<number of commits you want to see>
+
+git diff
+Compares files in working directory with the files in staging area. Once the changed files are added in 
+the staging Area, git diff shows no difference because files in working directory and staging area
+are same.
+
+
+If you want to compare staging area with last commit then, use this:
+git diff --staged
+
+
+If I want to skip the add commit (adding to staging area) and directly want to commit, then
+git commit -a -m "Skipped Staging step and added to code"
+
+if a new file is created,then for the first time it has to be added to staging area
+
+to remove files only from staging area
+Create a new file: touch waste.py
+Add it to staging area: git add -A
+Remove it only from staging area: git rm --chached waste.py
+
+To remove the file completely:
+git rm waste.py
+
