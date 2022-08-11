@@ -80,7 +80,16 @@ Make a change to one of the files, add in the staging area and commit. This chan
 in feature1 branch.
 However if you dont want this change to happen then:
 git checkout master:
-this will restore the changes done to the file in feature1
+this will restore the changes done to the file in feature1 (try it)
+
+If you wanna merge your changes in feature1 to master branch, then
+git merge feature1
+
+
+
+
+
+
 
 
 
